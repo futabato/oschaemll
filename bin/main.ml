@@ -5,12 +5,12 @@
 open Oschaemll
 
 let read_line_prompt () : string option =
-  print_string "mini> ";
+  print_string "oschaemll> ";
   flush stdout;
   try Some (input_line stdin) with End_of_file -> None
 
 let () =
-  print_endline "Mini Shell (OCaml) — type 'exit' to quit";
+  print_endline "oschaemll — type 'exit' to quit";
   let rec loop () =
     match read_line_prompt () with
     | None ->
