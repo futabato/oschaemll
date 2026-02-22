@@ -10,7 +10,7 @@ fmt:
 	dune fmt
 
 run:
-	dune exec mini_shell
+	dune exec oschaemll
 
 clean:
 	dune clean

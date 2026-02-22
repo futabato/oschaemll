@@ -1,4 +1,4 @@
 (executable
  (name main)
- (public_name mini_shell)
- (libraries mini_shell))
+ (public_name oschaemll)
+ (libraries oschaemll))

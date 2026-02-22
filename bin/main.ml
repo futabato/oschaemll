@@ -1,8 +1,8 @@
 (** REPL（Read-Eval-Print Loop）。
 
-    ライブラリの [Mini_shell.Shell.eval] を呼ぶだけ。 ロジックはすべて lib/ 側にある。 *)
+    ライブラリの [Oschaemll.Shell.eval] を呼ぶだけ。 ロジックはすべて lib/ 側にある。 *)
 
-open Mini_shell
+open Oschaemll
 
 let read_line_prompt () : string option =
   print_string "mini> ";

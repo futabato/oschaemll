@@ -2,7 +2,7 @@
 
     Alcotest を使ったユニットテスト。 パターンマッチで成功/失敗を検証する。 *)
 
-open Mini_shell
+open Oschaemll
 open Types
 
 (** ヘルパー: tokenize → parse を一気にやる *)
@@ -251,7 +251,7 @@ let integration_tests =
    ============================================ *)
 
 let () =
-  Alcotest.run "mini_shell"
+  Alcotest.run "oschaemll"
     [
       ("tokenizer", tokenizer_tests);
       ("parser", parser_tests);
