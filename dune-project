@@ -5,7 +5,7 @@
 (generate_opam_files true)
 
 (source
- (github futabato/mini-shell))
+ (github futabato/oschaemll))
 
 (authors "futabato")
 
