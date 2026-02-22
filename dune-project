@@ -9,6 +9,8 @@
 
 (authors "futabato")
 
+(maintainers "futabato")
+
 (license MIT)
 
 (package

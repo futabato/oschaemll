@@ -3,6 +3,7 @@ opam-version: "2.0"
 synopsis: "A type-driven mini shell in OCaml"
 description:
   "A minimal shell implementation designed with algebraic data types. Types define the structure, pattern matching ensures exhaustive handling."
+maintainer: ["futabato"]
 authors: ["futabato"]
 license: "MIT"
 homepage: "https://github.com/futabato/oschaemll"
