@@ -1,0 +1,3 @@
+(library
+ (name mini_shell)
+ (libraries unix))
